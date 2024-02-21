@@ -1,0 +1,10 @@
+child_meal_price = float(input("What's the price of a child's meal? "))
+adult_meal_price = float(input("What's the price of an adult's meal? "))
+child_count = int(input('How many children are there? '))
+adult_count = int(input('How many adults are there? '))
+salestax_rate = float(input('What is the sales tax rate? '))
+
+meal_subtotal = (child_count * child_meal_price) + (adult_count * adult_meal_price)
+meal_subtotal_rounded = round(meal_subtotal, 2)
+print('')
+print(f'Subtotal: ${meal_subtotal_rounded}')

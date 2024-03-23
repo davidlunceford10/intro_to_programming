@@ -17,7 +17,7 @@ for i in shopping_list:
 print('')
 print('The shopping list wit dee indexes be:')
 for i in range(len(shopping_list)):
-    shit = shopping_list[i]
+    shit = shopping_list[i]/
     print(f'{i}. {shit}')
 
 print('')
@@ -34,7 +34,7 @@ for i in range(len(shopping_list)):
     print(f'{i}. {shit}')
 
 
-#God bless!!!! Great time with this code here!
+#God bless!!!! Great time with this code here!  
 
 
 

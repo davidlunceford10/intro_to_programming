@@ -1,5 +1,5 @@
 shopping_list_items = []
-shopping_list_price = []
+shopping_list_prices = []
 action = ''
 
 while action != '5':
@@ -16,12 +16,19 @@ while action != '5':
 
     if action == '1':
         item = input('What item would you like to add? ')
+        item_price = float(input('What is the price of the item? '))
         shopping_list_items.append(item)
-        print(f'{item.title()} has been added to the cart.')
+        shopping_list_prices.append(item_price)
+        print(f'"{item.title()}" has been added to the cart.')
         print('')
 
     if action == '2':
         print('The contents of the shopping cart are: ')
-        for item in shopping_list_items:
-            print(item)
+        
+        for index, (item, price) in enumerate(zip(shopping_list_items,shopping_list_prices), start=1):
+            print(f'{index}. {item.title()} - ${price:.2f}')
+
+    if action == '5':
+        print('Thank you. Goodbye.')
+
     print('')

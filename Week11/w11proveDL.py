@@ -1,7 +1,7 @@
 country_list = []
-country_codes = []
+country_codes_list = []
 year_list = []
-life_expectancy_list = []
+life_expectancy_list = [] 
 
 
 with open('Week11/life-expectancy.txt') as lifedata:
@@ -10,7 +10,7 @@ with open('Week11/life-expectancy.txt') as lifedata:
         country = splitlifedataline[0]
         country_list.append(country)
         country_code = splitlifedataline[1]
-        country_codes.append(country_code)
+        country_codes_list.append(country_code)
         year = splitlifedataline[2]
         year_list.append(year)
         life_expectancy_inyears = splitlifedataline[3]
@@ -19,8 +19,34 @@ with open('Week11/life-expectancy.txt') as lifedata:
     highest_life_expectancy = max(life_expectancy_list)
     shortest_life_expectancy = min(life_expectancy_list)
 
-    print(f'The overall max life expectancy is: {highest_life_expectancy}')
-    print(f'The overall min life expectancy is: {shortest_life_expectancy}')
+YearOfInterestX = int(input('Enter the year of interest: '))
+
+#ALE stands for Average Life Expectancy
+ALEForTheYearOfX = None
+
+#MAXLE stands for Maximum Life Expectancy
+MAXLEForTheYearOfX = None
+
+#MLE stands for Minimum Life Expectancy
+MLEForTheYearOfX = None
+
+if YearOfInterestX == year_list:
+    for index in zip(enumerate )
+
+for index in year_list:
+    if YearOfInterestX == index:
+        
+
+
+          
+
+    
+        
+            
+
+            
+
+   
 
 
         

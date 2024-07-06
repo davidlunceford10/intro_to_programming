@@ -1,7 +1,7 @@
 number = int(input('Please type a positive number: '))
 
 while number <= -1:
-    print("That's negative bruh. Try again.")
+    print("That's negative. Try again.")
     number = int(input('Please type a positive number: '))
 
 print(f'The number is: {number}.')

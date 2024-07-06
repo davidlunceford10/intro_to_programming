@@ -1,7 +1,6 @@
 exit_keyword = 'quit'
 shopping_list = []
 
-#making fun of people is often an attempt to rise in the social game, in a zero-sum fashion. That's why God says not to insult people.#
 
 
 while True:
@@ -34,7 +33,7 @@ for i in range(len(shopping_list)):
     print(f'{i}. {shit}')
 
 
-#God bless!!!! Great time with this code here!  
+
 
 
 
